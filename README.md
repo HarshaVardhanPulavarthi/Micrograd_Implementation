@@ -1,27 +1,39 @@
-Building Micrograd: A Step-by-Step Neural Network Engine This repository contains a walkthrough of building a custom autograd (automatic gradient) engine and a neural network library from scratch. The implementation is heavily inspired by Andrej Karpathy's "The spelled-out intro to neural networks: building micrograd."
+# Building Micrograd: A Step-by-Step Neural Network Engine
 
-📺 Recommended Resource For the best learning experience, it is highly recommended to code along with the original video: YouTube: Building Micrograd by Andrej Karpathy
+This repository contains a comprehensive guide to building a custom autograd (automatic gradient) engine and a neural network library from scratch. The implementation is heavily inspired by **Andrej Karpathy's** "The spelled-out intro to neural networks: building micrograd."
 
-🚀 Overview The notebook guides you through the fundamental building blocks of modern Deep Learning, including:
+### 📺 Recommended Resource
+For the best learning experience, it is highly recommended to code along with the original video:
+**[YouTube: Building Micrograd by Andrej Karpathy](https://www.youtube.com/watch?v=VMj-3S1tku0)**
 
-The Value Object: Building a scalar-valued engine that tracks the computation graph.
+---
 
-Manual Backpropagation: Understanding how the Chain Rule flows through addition, multiplication, and activation functions.
+## 🚀 Overview
+The notebook guides you through the fundamental building blocks of modern Deep Learning, including:
 
-Automatic Differentiation: Implementing the .backward() function to automate gradient calculations.
+* **The `Value` Object**: Building a scalar-valued engine that tracks the computation graph.
+* **Manual Backpropagation**: Understanding how the Chain Rule flows through addition, multiplication, and activation functions.
+* **Automatic Differentiation**: Implementing the `.backward()` function to automate gradient calculations.
+* **Neuron, Layer, and MLP Classes**: Constructing a modular multi-layer perceptron.
+* **Optimization**: Writing a training loop to perform Gradient Descent and minimize loss.
 
-Neuron, Layer, and MLP Classes: Constructing a modular multi-layer perceptron.
 
-Optimization: Writing a training loop to perform Gradient Descent and minimize loss.
 
-🧠 Approach The code is written step-by-step and is specifically optimized for readability. Whether you are a beginner looking to understand the "magic" behind PyTorch or an experienced developer brushing up on the fundamentals, you can follow this notebook with ease.
+---
 
-🛠️ Usage Open the .ipynb notebook.
+## 🧠 Approach
+The code in this repository is designed to be **step-wise and beginner-friendly**.
+* **Educational Flow**: Concepts are introduced one by one, ensuring you understand the "why" before moving to the "how."
+* **Readability**: The implementation is optimized for clarity, making it accessible even if you are new to neural networks.
+* **Hands-on Learning**: Even if you choose to follow this notebook independently of the video, the logic is self-contained and easy to follow.
 
-Follow the cells sequentially to build the engine from the ground up.
+## 🛠️ Usage
+1.  Open the `.ipynb` notebook.
+2.  Execute the cells sequentially to build the engine from the ground up.
+3.  Experiment with the weights and learning rates in the final section to observe how the network converges on a dataset.
 
-Play with the weights and learning rates in the final section to see the network converge on a dataset.
+---
 
-💡 Features Included Mathematical Intuition: Every major function includes a section explaining the "Why" behind the math.
-
-Visualizations: Logic for understanding the flow of data through neurons and layers.
+## 💡 Key Features
+* **Mathematical Intuition**: Every major function includes a section explaining the underlying calculus.
+* **Gradient Descent**: A practical demonstration of how weights are updated to reduce error.
