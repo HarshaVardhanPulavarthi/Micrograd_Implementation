@@ -25,7 +25,3 @@ Play with the weights and learning rates in the final section to see the network
 💡 Features Included Mathematical Intuition: Every major function includes a section explaining the "Why" behind the math.
 
 Visualizations: Logic for understanding the flow of data through neurons and layers.
-
-Numerical Stability: Includes fixes for common issues like OverflowError in activation functions.
-
-Happy Coding!
